@@ -9,9 +9,26 @@
     /* --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji'; */
     --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-jersey: "Jersey 15", "Jersey 15 Fallback", sans-serif;
+
+    --color-background: #00131c;
     --color-primary: #003259;
     --color-secondary: #34799f;
     --color-third: #0799cd;
+    --color-sky: #a2fff4;
+    --color-letters: #003b64;
+
+    --breakpoint-3xl: 1920px;
+}
+
+html, body {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
 }
 
 /* Animação letras */
@@ -74,3 +91,36 @@
 }
 
 /* Fim Animação Fundo */
+
+/* Animação Montanhas */
+.layer {
+    will-change: transform;
+    transition: transform 0.3s ease-out;
+}
+
+.layer_2 {
+    will-change: transform;
+    transition: transform 0.7s ease-out;
+}
+
+/* Fim Animação Montanhas */
+
+/* Animação setas */
+.arrows-container {
+  transition: opacity 0.9s ease;
+}
+
+.arrow {
+  animation: arrowPulse 1.2s ease-in-out infinite;
+}
+
+@keyframes arrowPulse {
+  0%, 100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+/* Fim Animação setas */
+

@@ -1,4 +1,4 @@
-<section id="intro" class="absolute w-full h-full overflow-hidden">
+<section id="intro" class="fixed inset-0 w-full h-screen overflow-hidden z-50 text-white">
     <div class="grid grid-cols-6 md:grid-cols-10 h-full">
         <div class="downGround h-full bg-linear-to-t from-primary to-secondary" style="animation-delay: 2.0s;"></div>
         <div class="downGround h-full bg-linear-to-t from-primary to-secondary" style="animation-delay: 2.1s;"></div>
