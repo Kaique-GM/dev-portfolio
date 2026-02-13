@@ -31,7 +31,7 @@
     <div class="absolute top-[34%] md:top-[30%] 2xl:top-[32%] translate-y-4 md:translate-y-2 2xl:translate-y-3 left-1/2 -translate-x-1/2 text-center font-jersey text-letters w-full z-80">
         <div class="flex justify-center items-center">
             <div class="flex flex-col justify-center items-start">
-                <span class="md:-ml-3 text-3xl md:text-[36px] text-background leading-5 md:leading-none text-start layer layer_2" data-speed="1.8">Oi, eu sou</span>
+                <span class="md:-ml-3 text-3xl md:text-[36px] text-background leading-5 md:leading-none text-start layer layer_2" data-speed="1.8">{{ __('messages.oi') }}</span>
                 <h1 class="text-6xl md:text-[96px] md:leading-16 layer layer_2" data-speed="2.0">
                     Kaique Mattos
                 </h1>

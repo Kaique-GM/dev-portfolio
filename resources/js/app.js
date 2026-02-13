@@ -35,12 +35,23 @@ window.addEventListener("scroll", () => {
 const langButtons = document.querySelectorAll(".lang-btn");
 
 langButtons.forEach(btn => {
-  btn.addEventListener("click", () => {
+  btn.addEventListener("click", async () => {
     langButtons.forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
 
     const selectedLang = btn.dataset.lang;
     localStorage.setItem("lang", selectedLang);
+
+    await fetch("/set-language", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-CSRF-TOKEN": document.querySelector('meta[name="csrf-token"]').content
+      },
+      body: JSON.stringify({ lang: selectedLang })
+    });
+
+    location.reload();
   });
 });
 

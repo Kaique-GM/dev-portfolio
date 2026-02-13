@@ -62,9 +62,9 @@
         </div>
 
         <div class="relative flex flex-col justify-center items-end text-background font-jersey text-[36px] z-45 layer layer_2" data-speed="2.0">
-            <a href="/" class="hover:scale-125 hover:filter-[drop-shadow(0px_0px_12px_rgba(0,0,0,0.6))] duration-300 leading-12">Sobre</a>
-            <a href="#" class="hover:scale-125 hover:filter-[drop-shadow(0px_0px_12px_rgba(0,0,0,0.6))] duration-300 leading-12">Projetos</a>
-            <a href="#" class="hover:scale-125 hover:filter-[drop-shadow(0px_0px_12px_rgba(0,0,0,0.6))] duration-300 leading-12">Skills</a>
+            <a href="/" class="hover:scale-125 hover:filter-[drop-shadow(0px_0px_12px_rgba(0,0,0,0.6))] duration-300 leading-12">{{ __('messages.sobre') }}</a>
+            <a href="#" class="hover:scale-125 hover:filter-[drop-shadow(0px_0px_12px_rgba(0,0,0,0.6))] duration-300 leading-12">{{ __('messages.projetos') }}</a>
+            <a href="#" class="hover:scale-125 hover:filter-[drop-shadow(0px_0px_12px_rgba(0,0,0,0.6))] duration-300 leading-12">{{ __('messages.skills') }}</a>
         </div>
     </div>
 </nav>
