@@ -3,7 +3,7 @@ import './bootstrap';
 // Intro
 setTimeout(() => {
   document.getElementById("intro").remove();
-}, 4200);
+}, 4000);
 
 // Parallax Effect
 window.addEventListener("scroll", () => {
@@ -28,4 +28,29 @@ window.addEventListener("scroll", () => {
       }
     }
   });
+});
+
+
+// Linguagem
+const langButtons = document.querySelectorAll(".lang-btn");
+
+langButtons.forEach(btn => {
+  btn.addEventListener("click", () => {
+    langButtons.forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+
+    const selectedLang = btn.dataset.lang;
+    localStorage.setItem("lang", selectedLang);
+  });
+});
+
+// quando carregar a página, manter idioma salvo
+const savedLang = localStorage.getItem("lang") || "pt";
+
+langButtons.forEach(btn => {
+  if (btn.dataset.lang === savedLang) {
+    btn.classList.add("active");
+  } else {
+    btn.classList.remove("active");
+  }
 });

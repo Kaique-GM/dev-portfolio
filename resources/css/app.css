@@ -17,11 +17,16 @@
     --color-third: #0799cd;
     --color-sky: #a2fff4;
     --color-letters: #003b64;
+    --color-dark_blue: #002b4e;
 
     --breakpoint-3xl: 1920px;
+
+    --shadow-icon: 3px 3px 10px rgba(0, 0, 0, 0.45);
+    --shadow-bar: 0px 0px 10px rgba(0, 0, 0, 0.45);
 }
 
-html, body {
+html,
+body {
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
@@ -29,6 +34,10 @@ html, body {
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
     display: none;
+}
+
+.bg-sky img {
+    pointer-events: none;
 }
 
 /* Animação letras */
@@ -107,20 +116,40 @@ body::-webkit-scrollbar {
 
 /* Animação setas */
 .arrows-container {
-  transition: opacity 0.9s ease;
+    transition: opacity 0.9s ease;
 }
 
 .arrow {
-  animation: arrowPulse 1.2s ease-in-out infinite;
+    animation: arrowPulse 1.2s ease-in-out infinite;
 }
 
 @keyframes arrowPulse {
-  0%, 100% {
-    opacity: 0.4;
-  }
-  50% {
-    opacity: 1;
-  }
+
+    0%,
+    100% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 1;
+    }
 }
+
 /* Fim Animação setas */
 
+/* Linguagem */
+.lang-btn {
+    opacity: 0.35;
+    transition: 0.3s;
+}
+
+.lang-btn:hover {
+    opacity: 1;
+}
+
+.lang-btn.active {
+    opacity: 1;
+    transform: scale(1.08);
+}
+
+/* Fim Linguagem */
