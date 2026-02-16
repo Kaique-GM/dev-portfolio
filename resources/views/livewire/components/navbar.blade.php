@@ -1,5 +1,5 @@
 <nav class="w-full h-screen overflow-hidden bg-none absolute top-0 left-0">
-    <div class="max-w-375 mx-auto px-6 py-5 flex items-start justify-between relative">
+    <div class="max-w-375 mx-auto px-2 md:px-6 py-24 md:py-5 flex items-center md:items-start justify-between relative">
         <div class="absolute top-5 left-1/2 -translate-x-1/2 layer layer_2 z-30" data-speed="2.0">
             <div class="flex justify-center items-center">
 

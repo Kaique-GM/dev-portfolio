@@ -10,6 +10,9 @@
         'Segoe UI Symbol', 'Noto Color Emoji'; */
     --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
     --font-jersey: "Jersey 15", "Jersey 15 Fallback", sans-serif;
+    --font-caveat: "Caveat", cursive;
+    --font-bungee: "Bungee", cursive;
+    --font-lexend: "Lexend", sans-serif;
 
     --color-background: #00131c;
     --color-primary: #003259;
@@ -18,11 +21,15 @@
     --color-sky: #a2fff4;
     --color-letters: #003b64;
     --color-dark_blue: #002b4e;
+    --color-dark_blue_2: #046fb1;
+    --color-dark_blue_3: #002b4e;
+    --color-dark_blue_4: #034f80;
 
     --breakpoint-3xl: 1920px;
 
     --shadow-icon: 3px 3px 10px rgba(0, 0, 0, 0.45);
     --shadow-bar: 0px 0px 10px rgba(0, 0, 0, 0.45);
+    --shadow-card: 4px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 html,

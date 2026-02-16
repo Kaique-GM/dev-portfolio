@@ -65,3 +65,23 @@ langButtons.forEach(btn => {
     btn.classList.remove("active");
   }
 });
+
+
+// Animção about
+const aboutBox = document.querySelector("#about-box");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      aboutBox.classList.remove("opacity-0", "-translate-x-30");
+      aboutBox.classList.add("opacity-100", "translate-x-0");
+    } else {
+      aboutBox.classList.remove("opacity-100", "translate-x-0");
+      aboutBox.classList.add("opacity-0", "-translate-x-30");
+    }
+  });
+}, {
+  threshold: 0.2
+});
+
+observer.observe(aboutBox);
