@@ -12,10 +12,18 @@
                         </span>
                         <div class="flex flex-col justify-center items-end font-bold">
                             <span class="text-lg font-caveat text-dark_blue_2">
-                                DESENVOLVEDOR
+                                @if(app()->getLocale() == 'en')
+                                {{ __('messages.sobre_prof_2') }}
+                                @else
+                                {{ __('messages.sobre_prof_1') }}
+                                @endif
                             </span>
                             <span class="text-lg font-caveat text-dark_blue_2">
-                                FULL STACK
+                                @if(app()->getLocale() == 'en')
+                                {{ __('messages.sobre_prof_1') }}
+                                @else
+                                {{ __('messages.sobre_prof_2') }}
+                                @endif
                             </span>
                         </div>
                     </div>
@@ -34,30 +42,31 @@
                 </div>
                 <div class="flex flex-col justify-center items-center md:items-start">
                     <span class="text-4xl md:text-5xl font-caveat text-dark_blue_2">
-                        Sobre mim
+                        {{ __('messages.sobre') }}
                     </span>
                     <h2 class="text-2xl md:text-4xl font-bungee text-white drop-shadow-[0_4px_0px_rgba(0,0,0,1)]">
-                        Dev Full Stack
+                        {{ __('messages.sobre_mim') }}
                     </h2>
                 </div>
             </div>
 
             <div class="flex flex-col w-full max-w-full gap-2 justify-center items-center md:items-start text-center md:text-start p-2 ">
-                <h3 class="font-caveat text-dark_blue_2 text-2xl md:text-3xl font-bold">Um pouco sobre minha jornada na tecnologia</h3>
+                <h3 class="font-caveat text-dark_blue_2 text-2xl md:text-3xl font-bold"> {{ __('messages.sobre_sub') }}
+                </h3>
 
                 <p class="font-lexend md:text-xl text-[#D1D5D8]">
-                    Formado em Análise e Desenvolvimento de Sistemas pela Facens, curto tirar projetos do papel e transformar ideias em soluções reais. Sou apaixonado por tecnologia e estou sempre buscando evoluir.
+                    {{ __('messages.sobre_p1') }}
                 </p>
                 <br>
                 <p class="font-lexend md:text-xl text-[#D1D5D8]">
-                    No dia a dia, trabalho com Laravel, Livewire, Tailwind CSS, JavaScript e SQL, criando sistemas responsivos, integrações com APIs e dando manutenção em projetos já em produção. Sempre busco entregar um código bem organizado, escalável e versionado com Git.
+                    {{ __('messages.sobre_p2') }}
                 </p>
             </div>
 
             <div class="mt-5 flex flex-col md:flex-row justify-start items-center gap-4 w-full">
                 <button class="font-bungee text-xl text-white bg-dark_blue_3 px-4 py-4 flex justify-center items-center border-b-4 border-dark_blue_4 rounded-xl cursor-pointer hover:scale-110 duration-300 gap-3">
                     <i class="fa-solid fa-folder-open"></i>
-                    MEUS PROJETOS
+                    {{ __('messages.sobre_btn') }}
                 </button>
 
                 <button onclick="window.open(this.dataset.url, '_blank')" data-url="{{ asset('files/C.4.1.pdf') }}" class="font-bungee text-xl text-white bg-dark_blue_3 px-4 py-4 flex justify-center items-center border-b-4 border-dark_blue_4 rounded-xl cursor-pointer hover:scale-110 duration-300 gap-3">
