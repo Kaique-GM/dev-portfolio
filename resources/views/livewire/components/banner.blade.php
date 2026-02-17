@@ -6,7 +6,7 @@
         <img class="absolute inset-0 w-full h-full object-cover layer z-20" data-speed="0.75"
             src="{{ asset('images/banner/normal/2_Montains.webp') }}" alt="Montains Banner" draggable="false">
 
-        <img class="absolute inset-0 w-full h-full object-cover layer z-30" data-speed="0.60"
+        <img class="absolute inset-0 w-full h-full object-cover layer z-30  overflow-visible" data-speed="0.60"
             src="{{ asset('images/banner/normal/3_Montains.webp') }}" alt="Montains 2 Banner" draggable="false">
 
         <img class="absolute inset-0 w-full h-full object-cover layer z-40" data-speed="0.65"

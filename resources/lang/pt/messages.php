@@ -14,4 +14,12 @@ return [
     'sobre_p2' => 'No dia a dia, trabalho com Laravel, Livewire, Tailwind CSS, JavaScript e SQL, criando sistemas responsivos, integrações com APIs e dando manutenção em projetos já em produção. Sempre busco entregar um código bem organizado, escalável e versionado com Git.',
     'sobre_prof_1' => 'DESENVOLVEDOR',
     'sobre_prof_2' => 'FULL STACK',
+    'certificados_title' => 'Certificados',
+    'certificados_sub' => '“A cada dia um novo passo, um novo desafio, um novo aprendizado”',
+    'graduacao_nome' => 'Análise e Desenvolvimento de Sistemas',
+    'graduacao_conclusao' => 'Conclusão',
+    'cert_java_nome' => 'Java - Programação Orientada a Objetos',
+    'data_java' => 'Out/2024',
+    'cert_git_nome' => 'Git & GitHub - Controle de Versão',
+    'cert_outros' => 'Entre outros que você pode conferir no meu Linkedin...',
 ];

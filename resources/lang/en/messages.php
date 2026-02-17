@@ -16,4 +16,12 @@ return [
     'sobre_prof_1' => 'DESENVOLVEDOR',
     'sobre_prof_1' => 'DEVELOPER',
     'sobre_prof_2' => 'FULL STACK',
+    'certificados_title' => 'Certificates',
+    'certificados_sub' => '“Every day a new step, a new challenge, a new lesson learned”',
+    'graduacao_nome' => 'Systems Analysis and Development',
+    'graduacao_conclusao' => 'Graduation',
+    'cert_java_nome' => 'Java - Object-Oriented Programming',
+    'data_java' => 'Oct/2024',
+    'cert_git_nome' => 'Git & GitHub - Version Control',
+    'cert_outros' => 'And many others you can check out on my LinkedIn...',
 ];

@@ -119,6 +119,17 @@ body::-webkit-scrollbar {
     transition: transform 0.7s ease-out;
 }
 
+.layer-reverse {
+  transform: translateY(-100px) rotate(180deg); /* começa acima da tela */
+  opacity: 0; /* invisível */
+  transition: transform 1s ease-out, opacity 1s ease-out; /* deslizar suavemente */
+}
+
+.layer-reverse.visible {
+  transform: translateY(0) rotate(180deg); /* posição final */
+  opacity: 1;
+}
+
 /* Fim Animação Montanhas */
 
 /* Animação setas */

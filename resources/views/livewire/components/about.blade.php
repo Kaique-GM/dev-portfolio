@@ -1,5 +1,5 @@
-<div class="max-w-screen-2xl mx-auto p-2 mt-20 xl:mt-50">
-    <div id="about-box" class="flex flex-col gap-10 lg:gap-0 lg:flex-row items-center justify-center p-4 h-full w-full transition-all opacity-0 -translate-x-30 duration-700 ease-out">
+<div class="max-w-screen-2xl mx-auto px-2 py-16 lg:py-36 flex flex-col gap-26">
+    <div class="about-box flex flex-col gap-10 lg:gap-0 lg:flex-row items-center justify-center p-4 h-full w-full transition-all opacity-0 -translate-x-30 duration-700 ease-out">
         <div class="w-full h-full">
             <div class="flex justify-center items-center relative">
                 <div class="bg-[#0F172A] max-w-110 rounded-4xl p-4 md:p-6 z-10 border-4 border-blue-400 shadow-card hover:scale-105 duration-500">
@@ -75,4 +75,63 @@
                 </button>
             </div>
         </div>
+
     </div>
+
+    <div class="about-box -rotate-1 w-full h-full px-2 md:px-24 py-10 transition-all opacity-0 -translate-x-30 duration-700 ease-out">
+        <div class="bg-linear-to-b from-[#3B82F6] via-[#3B82F6] to-[#B91C1C] p-1 rounded-3xl">
+            <div class="bg-linear-to-b from-[#0F172A] via-[#0F172A] to-[#2b0f12] rounded-3xl p-10  flex flex-col xl:flex-row justify-between items-end xl:items-start relative gap-32  md:gap-56 xl:gap-0">
+                <div class="flex flex-col gap-12 w-full">
+                    <div>
+                        <h5 class="font-bungee rotate-0.2 text-white drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-[26px] md:text-[60px] ">
+                            {{ __('messages.certificados_title') }}
+                        </h5>
+                        <span class="font-caveat text-dark_blue_2 font-bold text-2xl">“{{ __('messages.certificados_sub') }}”</span>
+                    </div>
+
+                    <div class="relative ">
+                        <img src="{{ asset('images/about/Tailwind.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl">
+                        <img src="{{ asset('images/about/Java_Fiap.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-5 md:top-12 left-5 md:left-12">
+                        <img src="{{ asset('images/about/Git.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-10 md:top-22 left-10 md:left-22">
+                        <img src="{{ asset('images/about/ScrumCertificate.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-16 md:top-32 left-16 md:left-32">
+                        <img src="{{ asset('images/about/CertificadoJava.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-20 md:top-42 left-20 md:left-42">
+                    </div>
+                </div>
+
+                <div class="flex flex-col justify-start items-end gap-5 w-full md:max-w-137.5 rotate-0.2 ">
+                    <div class="flex flex-col justify-start items-end">
+                        <h5 class="font-bungee text-end text-white drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-xl md:text-[32px] ">
+                            {{ __('messages.graduacao_nome') }}
+
+                        </h5>
+                        <span class="font-caveat text-dark_blue_2 font-bold text-lg md:text-2xl">FACENS</span>
+                        <p class="font-lexend md:text-xl text-[#D1D5D8]">{{ __('messages.graduacao_conclusao') }} 2025</p>
+                    </div>
+
+                    <div class="flex flex-col justify-start items-end">
+                        <h5 class="font-bungee text-end text-white drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-xl md:text-[32px] ">
+                            {{ __('messages.cert_java_nome') }}
+                        </h5>
+                        <span class="font-caveat text-dark_blue_2 font-bold text-lg md:text-2xl">Udemy</span>
+                        <p class="font-lexend md:text-xl text-[#D1D5D8]">{{ __('messages.data_java') }}</p>
+                    </div>
+
+                    <div class="flex flex-col justify-start items-end">
+                        <h5 class="font-bungee text-end text-white drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-xl md:text-[32px] ">
+                            {{ __('messages.cert_git_nome') }}
+                        </h5>
+                        <span class="font-caveat text-dark_blue_2 font-bold text-lg md:text-2xl">Udemy</span>
+                        <p class="font-lexend md:text-xl text-[#D1D5D8]">Jul/2025</p>
+                    </div>
+
+                    <div class="flex flex-col justify-start items-end">
+                        <span class="font-caveat text-[#DC2626] font-bold text-xl md:text-2xl">{{ __('messages.cert_outros') }}</span>
+                    </div>
+                </div>
+
+                <div class="absolute top-4 right-4 w-4 h-4 bg-[#3B82F6] rounded-full opacity-20"></div>
+                <div class="absolute top-8 left-4 w-4 h-4 bg-[#3B82F6] rounded-full opacity-20"></div>
+            </div>
+        </div>
+    </div>
+</div>

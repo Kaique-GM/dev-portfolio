@@ -12,22 +12,22 @@ window.addEventListener("scroll", () => {
   document.querySelectorAll(".layer").forEach(layer => {
     const speed = parseFloat(layer.dataset.speed);
     layer.style.transform = `translateY(${scrollY * speed}px)`;
-
-    const banner = document.querySelector("section.bg-sky");
-    const arrows = document.querySelector(".arrows-container");
-
-    if (banner && arrows) {
-      const bannerHeight = banner.offsetHeight;
-
-      if (scrollY > bannerHeight * 0.4) {
-        arrows.style.opacity = "0";
-        arrows.style.pointerEvents = "none";
-      } else {
-        arrows.style.opacity = "1";
-        arrows.style.pointerEvents = "auto";
-      }
-    }
   });
+
+  const banner = document.querySelector("section.bg-sky");
+  const arrows = document.querySelector(".arrows-container");
+
+  if (banner && arrows) {
+    const bannerHeight = banner.offsetHeight;
+
+    if (scrollY > bannerHeight * 0.4) {
+      arrows.style.opacity = "0";
+      arrows.style.pointerEvents = "none";
+    } else {
+      arrows.style.opacity = "1";
+      arrows.style.pointerEvents = "auto";
+    }
+  }
 });
 
 
@@ -67,21 +67,20 @@ langButtons.forEach(btn => {
 });
 
 
-// Animção about
-const aboutBox = document.querySelector("#about-box");
+const aboutBoxes = document.querySelectorAll(".about-box");
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      aboutBox.classList.remove("opacity-0", "-translate-x-30");
-      aboutBox.classList.add("opacity-100", "translate-x-0");
+      entry.target.classList.remove("opacity-0", "-translate-x-30");
+      entry.target.classList.add("opacity-100", "translate-x-0");
     } else {
-      aboutBox.classList.remove("opacity-100", "translate-x-0");
-      aboutBox.classList.add("opacity-0", "-translate-x-30");
+      entry.target.classList.remove("opacity-100", "translate-x-0");
+      entry.target.classList.add("opacity-0", "-translate-x-30");
     }
   });
 }, {
   threshold: 0.2
 });
 
-observer.observe(aboutBox);
+aboutBoxes.forEach(box => observer.observe(box));
