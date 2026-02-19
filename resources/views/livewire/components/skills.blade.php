@@ -257,7 +257,7 @@
 
                             <div class="flex flex-col justify-center items-center gap-1">
                                 <div class="rounded-full p-2 border-2 border-white/10 hover:scale-110 duration-300">
-                                    <img src="{{ asset('images/skills/vs.svg') }}" alt="Figma"
+                                    <img src="{{ asset('images/skills/vs.svg') }}" alt="VSCODE"
                                         class="h-10 w-10" draggable="false">
                                 </div>
                                 <span
@@ -293,7 +293,7 @@
 
                             <div class="flex flex-col justify-center items-center gap-1">
                                 <div class="rounded-full p-2 border-2 border-white/10 hover:scale-110 duration-300">
-                                    <img src="{{ asset('images/skills/Figma.svg') }}" alt="Figma"
+                                    <img src="{{ asset('images/skills/figma.svg') }}" alt="Figma"
                                         class="h-10 w-10" draggable="false">
                                 </div>
                                 <span
