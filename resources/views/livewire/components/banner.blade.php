@@ -1,7 +1,7 @@
 <section class="bg-sky relative overflow-hidden">
     <livewire:components.navbar />
 
-    <div class="relative w-full h-screen overflow-hidden">
+    <div class="relative w-full h-dvh overflow-hidden">
         <img class="absolute inset-0 w-full h-full object-cover layer z-10" data-speed="0.85"
             src="{{ asset('images/banner/normal/1_Clouds.webp') }}" alt="Clouds Banner" draggable="false">
 
