@@ -90,7 +90,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="flex flex-row gap-3 mt-6 pl-7">
+                <div class="flex flex-wrap gap-3 mt-6 pl-7">
                     <div class="rounded-full p-2 border-2 border-white/10 hover:scale-110 duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 272" class="w-10 h-10">
                             <path fill="#DD0031" d="M128 0L0 48l19.2 160L128 272l108.8-64L256 48z" />

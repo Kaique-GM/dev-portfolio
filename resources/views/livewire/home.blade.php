@@ -9,6 +9,8 @@
         <livewire:components.under-banner />    
 
         <livewire:components.projects />
+
+        <livewire:components.experience />
     </div>
 
 </section>
