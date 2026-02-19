@@ -6,6 +6,7 @@ return [
     'skills' => 'Skills',
     'contato' => 'Contact',
     'oi' => 'Hi, I am',
+
     'sobre' => 'About me',
     'sobre_mim' => 'Full Stack Dev',
     'sobre' => 'About me',
@@ -16,6 +17,7 @@ return [
     'sobre_prof_1' => 'DESENVOLVEDOR',
     'sobre_prof_1' => 'DEVELOPER',
     'sobre_prof_2' => 'FULL STACK',
+
     'certificados_title' => 'Certificates',
     'certificados_sub' => '“Every day a new step, a new challenge, a new lesson learned”',
     'graduacao_nome' => 'Systems Analysis and Development',
@@ -24,4 +26,31 @@ return [
     'data_java' => 'Oct/2024',
     'cert_git_nome' => 'Git & GitHub - Version Control',
     'cert_outros' => 'And many others you can check out on my LinkedIn...',
+
+    'projetos' => 'My Projects',
+    'proj_miaumigo_desc_card' => 'Pet e-commerce that connects businesses and animal lovers, supporting rescue NGOs.',
+    'proj_miaumigo_tipo' => 'Team project',
+    'proj_miaumigo_desc' => 'MiauMigo Shop is an innovative pet e-commerce platform that connects pet businesses with consumers who love their animals. Besides boosting companies, the project has a social purpose: part of the profits is donated to animal rescue NGOs.',
+    'proj_miaumigo_feat_1' => 'E-commerce platform focused on the pet universe',
+    'proj_miaumigo_feat_2' => 'Connects pet businesses with consumers',
+    'proj_miaumigo_feat_3' => 'Focused on helping small and medium businesses go digital',
+    'proj_miaumigo_feat_4' => 'Part of the profits donated to animal rescue NGOs',
+
+    'proj_walletcare_desc_card' => 'Financial application in Java with charts and full control of income and expenses.',
+    'proj_walletcare_tipo' => 'Personal project',
+    'proj_walletcare_desc' => 'WalletCare is a financial management application developed in Java and JavaFX, featuring interactive charts and full control of income and expenses. The system allows users to organize spending by month and year in a simple and visual way.',
+    'proj_walletcare_feat_1' => 'User login and registration system',
+    'proj_walletcare_feat_2' => 'Pie and bar charts to visualize finances',
+    'proj_walletcare_feat_3' => 'Control of income, fixed expenses, and variable expenses',
+    'proj_walletcare_feat_4' => 'Full CRUD in tables with month and year filters',
+    'proj_walletcare_feat_5' => 'Integrated MySQL database for data persistence',
+
+    'proj_snake_desc_card' => 'Snake Game in Java with 3 difficulty modes, dynamic progression and sound effects.',
+    'proj_snake_tipo' => 'Personal project',
+    'proj_snake_desc' => 'Snake Game is a classic game where the player controls a snake that grows with each food consumed. The project includes different difficulty modes, with progressive challenges such as wall collisions and increasing speed.',
+    'proj_snake_feat_1' => 'Three difficulty modes: Easy, Medium and Hard',
+    'proj_snake_feat_2' => 'Hard mode increases speed as the snake eats',
+    'proj_snake_feat_3' => 'Sound effects during gameplay',
+    'github_outros' => 'Check out more on my GitHub',
+
 ];

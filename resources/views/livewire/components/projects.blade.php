@@ -3,7 +3,7 @@
         <div class="flex justify-center items-center">
             <div class="flex flex-col justify-center items-start">
                 <h1 class="text-6xl md:text-[96px] md:leading-16 reverse-box transition-transform duration-1000 ease-in-out rotate-180">
-                    Meus Projetos
+                    {{ __('messages.projetos') }}
                 </h1>
             </div>
         </div>
@@ -13,7 +13,7 @@
             <div class="px-4 pt-4 flex flex-col justify-between items-center w-full h-full bg-linear-to-b from-[#14090B] via-[#1C0D10] to-[#B91C1C] rounded-2xl overflow-hidden">
                 <div onclick="window.open(this.dataset.url, '_blank')" data-url="https://github.com/Kaique-GM/MiauMigo-web" class="flex justify-between w-full items-center text-lg md:text-xl text-white font-bungee group cursor-pointer">
                     <div>
-                        <h6 class="drop-shadow-[0_4px_0px_rgba(0,0,0,1)]"> E-commerce pet que conecta empresas e amantes de animais, apoiando ONGs de resgate.</h6>
+                        <h6 class="drop-shadow-[0_4px_0px_rgba(0,0,0,1)]">{{ __('messages.proj_miaumigo_desc_card') }}</h6>
                     </div>
                     <div
                         class="group">
@@ -50,10 +50,9 @@
                             </svg>
                         </div>
                     </div>
-                    <span class="font-caveat text-[#B91C1C] text-3xl">Projeto em grupo</span>
+                    <span class="font-caveat text-[#B91C1C] text-3xl">{{ __('messages.proj_miaumigo_tipo') }}</span>
                     <p class="font-lexend md:text-lg text-[#D1D5D8]">
-                        MiauMigo Shop é um e-commerce pet inovador que conecta empresas do setor com consumidores apaixonados por seus animais.
-                        Além de impulsionar negócios, o projeto possui um propósito social: parte dos lucros é destinada a ONGs de resgate animal.
+                        {{ __('messages.proj_miaumigo_desc') }}
                     </p>
                 </div>
                 <div class="pl-7">
@@ -63,7 +62,7 @@
                                 style="fill: rgba(185,28,28,0.9);">
                                 <path d="M12 1C12 1 12 8 10 10C8 12 1 12 1 12C1 12 8 12 10 14C12 16 12 23 12 23C12 23 12 16 14 14C16 12 23 12 23 12C23 12 16 12 14 10C12 8 12 1 12 1Z"></path>
                             </svg>
-                            <span>Plataforma de e-commerce voltada ao universo pet</span>
+                            <span>{{ __('messages.proj_miaumigo_feat_1') }}</span>
                         </li>
 
                         <li class="flex items-start gap-2">
@@ -71,7 +70,7 @@
                                 style="fill: rgba(185,28,28,0.9);">
                                 <path d="M12 1C12 1 12 8 10 10C8 12 1 12 1 12C1 12 8 12 10 14C12 16 12 23 12 23C12 23 12 16 14 14C16 12 23 12 23 12C23 12 16 12 14 10C12 8 12 1 12 1Z"></path>
                             </svg>
-                            <span>Conecta empresas do setor pet com consumidores</span>
+                            <span>{{ __('messages.proj_miaumigo_feat_2') }}</span>
                         </li>
 
                         <li class="flex items-start gap-2">
@@ -79,7 +78,7 @@
                                 style="fill: rgba(185,28,28,0.9);">
                                 <path d="M12 1C12 1 12 8 10 10C8 12 1 12 1 12C1 12 8 12 10 14C12 16 12 23 12 23C12 23 12 16 14 14C16 12 23 12 23 12C23 12 16 12 14 10C12 8 12 1 12 1Z"></path>
                             </svg>
-                            <span>Foco em apoiar a digitalização de pequenos e médios negócios</span>
+                            <span>{{ __('messages.proj_miaumigo_feat_3') }}</span>
                         </li>
 
                         <li class="flex items-start gap-2">
@@ -87,7 +86,7 @@
                                 style="fill: rgba(185,28,28,0.9);">
                                 <path d="M12 1C12 1 12 8 10 10C8 12 1 12 1 12C1 12 8 12 10 14C12 16 12 23 12 23C12 23 12 16 14 14C16 12 23 12 23 12C23 12 16 12 14 10C12 8 12 1 12 1Z"></path>
                             </svg>
-                            <span>Parte dos lucros destinada a ONGs de resgate animal</span>
+                            <span>{{ __('messages.proj_miaumigo_feat_4') }}</span>
                         </li>
                     </ul>
                 </div>
@@ -148,7 +147,7 @@
             <div class="px-4 pt-4 flex flex-col justify-between items-center w-full h-full bg-linear-to-b from-[#14090B] via-[#1B0D1E] to-[#4F46E5] rounded-2xl overflow-hidden">
                 <div onclick="window.open(this.dataset.url, '_blank')" data-url="https://github.com/Kaique-GM/WalletCare-App" class="flex justify-between w-full items-center text-lg md:text-xl text-white font-bungee group cursor-pointer">
                     <div>
-                        <h6 class="drop-shadow-[0_4px_0px_rgba(0,0,0,1)]">Aplicação financeira em Java com gráficos e controle total de receitas e despesas.</h6>
+                        <h6 class="drop-shadow-[0_4px_0px_rgba(0,0,0,1)]">{{ __('messages.proj_walletcare_desc_card') }}</h6>
                     </div>
                     <div
                         class="group">
@@ -185,11 +184,9 @@
                             </svg>
                         </div>
                     </div>
-                    <span class="font-caveat text-[#4F46E5] text-3xl">Projeto pessoal</span>
+                    <span class="font-caveat text-[#4F46E5] text-3xl">{{ __('messages.proj_walletcare_tipo') }}</span>
                     <p class="font-lexend md:text-lg text-[#D1D5D8]">
-                        WalletCare é uma aplicação de gestão financeira desenvolvida em Java e JavaFX,
-                        com gráficos interativos e controle completo de entradas e saídas.
-                        O sistema permite organizar gastos por mês e ano de forma simples e visual.
+                        {{ __('messages.proj_walletcare_desc') }}
                     </p>
                 </div>
                 <div class="pl-7">
@@ -199,7 +196,7 @@
                                 style="fill: rgba(79,70,229,1);">
                                 <path d="M12 1C12 1 12 8 10 10C8 12 1 12 1 12C1 12 8 12 10 14C12 16 12 23 12 23C12 23 12 16 14 14C16 12 23 12 23 12C23 12 16 12 14 10C12 8 12 1 12 1Z"></path>
                             </svg>
-                            <span>Sistema de login e cadastro de usuários</span>
+                            <span>{{ __('messages.proj_walletcare_feat_1') }}</span>
                         </li>
 
                         <li class="flex items-start gap-2">
@@ -207,7 +204,7 @@
                                 style="fill: rgba(79,70,229,1);">
                                 <path d="M12 1C12 1 12 8 10 10C8 12 1 12 1 12C1 12 8 12 10 14C12 16 12 23 12 23C12 23 12 16 14 14C16 12 23 12 23 12C23 12 16 12 14 10C12 8 12 1 12 1Z"></path>
                             </svg>
-                            <span>Gráficos de pizza e barras para visualizar finanças</span>
+                            <span>{{ __('messages.proj_walletcare_feat_2') }}</span>
                         </li>
 
                         <li class="flex items-start gap-2">
@@ -215,7 +212,7 @@
                                 style="fill: rgba(79,70,229,1);">
                                 <path d="M12 1C12 1 12 8 10 10C8 12 1 12 1 12C1 12 8 12 10 14C12 16 12 23 12 23C12 23 12 16 14 14C16 12 23 12 23 12C23 12 16 12 14 10C12 8 12 1 12 1Z"></path>
                             </svg>
-                            <span>Controle de entradas, saídas fixas e saídas variáveis</span>
+                            <span>{{ __('messages.proj_walletcare_feat_3') }}</span>
                         </li>
 
                         <li class="flex items-start gap-2">
@@ -223,14 +220,14 @@
                                 style="fill: rgba(79,70,229,1);">
                                 <path d="M12 1C12 1 12 8 10 10C8 12 1 12 1 12C1 12 8 12 10 14C12 16 12 23 12 23C12 23 12 16 14 14C16 12 23 12 23 12C23 12 16 12 14 10C12 8 12 1 12 1Z"></path>
                             </svg>
-                            <span>CRUD completo em tabelas com filtro por mês e ano</span>
+                            <span>{{ __('messages.proj_walletcare_feat_4') }}</span>
                         </li>
 
                         <li class="flex items-start gap-2">
                             <svg width="20" height="20" viewBox="0 0 24 24" class="mt-1 shrink-0" style="fill: rgba(79,70,229,1);">
                                 <path d="M12 1C12 1 12 8 10 10C8 12 1 12 1 12C1 12 8 12 10 14C12 16 12 23 12 23C12 23 12 16 14 14C16 12 23 12 23 12C23 12 16 12 14 10C12 8 12 1 12 1Z"></path>
                             </svg>
-                            <span>Banco de dados MySQL integrado para persistência</span>
+                            <span>{{ __('messages.proj_walletcare_feat_5') }}</span>
                         </li>
                     </ul>
                 </div>
@@ -253,7 +250,7 @@
             <div class="px-4 pt-4 flex flex-col justify-between items-center w-full h-full bg-linear-to-b from-[#14090B] via-[#1B0D1E] to-[#007A3F] rounded-2xl overflow-hidden">
                 <div onclick="window.open(this.dataset.url, '_blank')" data-url="https://github.com/Kaique-GM/Snake-Game-java" class="flex justify-between w-full items-center text-lg md:text-xl text-white font-bungee group cursor-pointer">
                     <div>
-                        <h6 class="drop-shadow-[0_4px_0px_rgba(0,0,0,1)]">Snake Game em Java com 3 modos de dificuldade, progressão dinâmica e efeitos sonoros.</h6>
+                        <h6 class="drop-shadow-[0_4px_0px_rgba(0,0,0,1)]">{{ __('messages.proj_snake_desc_card') }}</h6>
                     </div>
                     <div
                         class="group">
@@ -290,10 +287,9 @@
                             </svg>
                         </div>
                     </div>
-                    <span class="font-caveat text-[#007A3F] text-3xl">Projeto pessoal</span>
+                    <span class="font-caveat text-[#007A3F] text-3xl">{{ __('messages.proj_snake_tipo') }}</span>
                     <p class="font-lexend md:text-lg text-[#D1D5D8]">
-                        Snake Game é um jogo clássico onde o jogador controla uma cobra que cresce a cada comida consumida.
-                        O projeto possui diferentes modos de dificuldade, com desafios progressivos como colisão com paredes e aumento de velocidade.
+                       {{ __('messages.proj_snake_desc') }}
                     </p>
                 </div>
                 <div class="pl-7">
@@ -303,7 +299,7 @@
                                 style="fill: rgba(0,122,63,1);">
                                 <path d="M12 1C12 1 12 8 10 10C8 12 1 12 1 12C1 12 8 12 10 14C12 16 12 23 12 23C12 23 12 16 14 14C16 12 23 12 23 12C23 12 16 12 14 10C12 8 12 1 12 1Z"></path>
                             </svg>
-                            <span>Três modos de dificuldade: Easy, Medium e Hard</span>
+                            <span>{{ __('messages.proj_snake_feat_1') }}</span>
                         </li>
 
                         <li class="flex items-start gap-2">
@@ -311,7 +307,7 @@
                                 style="fill: rgba(0,122,63,1);">
                                 <path d="M12 1C12 1 12 8 10 10C8 12 1 12 1 12C1 12 8 12 10 14C12 16 12 23 12 23C12 23 12 16 14 14C16 12 23 12 23 12C23 12 16 12 14 10C12 8 12 1 12 1Z"></path>
                             </svg>
-                            <span>Modo Hard aumenta a velocidade conforme a cobra come</span>
+                            <span>{{ __('messages.proj_snake_feat_2') }}</span>
                         </li>
 
                         <li class="flex items-start gap-2">
@@ -319,7 +315,7 @@
                                 style="fill: rgba(0,122,63,1);">
                                 <path d="M12 1C12 1 12 8 10 10C8 12 1 12 1 12C1 12 8 12 10 14C12 16 12 23 12 23C12 23 12 16 14 14C16 12 23 12 23 12C23 12 16 12 14 10C12 8 12 1 12 1Z"></path>
                             </svg>
-                            <span>Efeitos sonoros durante o jogo</span>
+                            <span>{{ __('messages.proj_snake_feat_3') }}</span>
                         </li>
                     </ul>
                 </div>
@@ -336,7 +332,7 @@
         <div class="flex justify-center items-center">
             <div class="flex flex-row justify-center items-center gap-4">
                 <h1 class="text-4xl md:leading-16">
-                    Confira outros no meu GitHub
+                    {{ __('messages.github_outros') }}
                 </h1>
                 <div onclick="window.open(this.dataset.url, '_blank')" data-url="https://github.com/Kaique-GM" class="rounded-full hover:bg-zinc-900 cursor-pointer p-2 duration-300 hover:scale-110">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github size-5">
