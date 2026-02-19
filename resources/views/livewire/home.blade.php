@@ -5,10 +5,10 @@
         <livewire:components.about />
     </div>
 
-    <div class="bg-[#533033]">
+    <div class="bg-linear-to-b from-[#533033] via-[#240B12] to-[#09040A]">
         <livewire:components.under-banner />    
 
-        <livewire:components.about />
+        <livewire:components.projects />
     </div>
 
 </section>

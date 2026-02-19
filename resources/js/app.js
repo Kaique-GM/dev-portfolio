@@ -84,3 +84,34 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 aboutBoxes.forEach(box => observer.observe(box));
+
+const certImgs = document.querySelectorAll(".cert-img");
+
+const certObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.remove("opacity-0", "-translate-x-30");
+      entry.target.classList.add("opacity-100", "translate-x-0");
+    } else {
+      entry.target.classList.remove("opacity-100", "translate-x-0");
+      entry.target.classList.add("opacity-0", "-translate-x-30");
+    }
+  });
+}, { threshold: 0.3 });
+
+certImgs.forEach(img => certObserver.observe(img));
+
+const reverseBoxes = document.querySelectorAll(".reverse-box");
+
+const reverserObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.remove("rotate-180");
+      entry.target.classList.add("rotate-0");
+    }
+  });
+}, {
+  threshold: 0.6
+});
+
+reverseBoxes.forEach(reverse => reverserObserver.observe(reverse));

@@ -62,9 +62,9 @@
         </div>
 
         <div class="relative flex flex-col justify-center items-end text-background font-jersey text-[36px] z-45 layer layer_2" data-speed="2.0">
-            <a href="/" class="hover:scale-125 hover:filter-[drop-shadow(0px_0px_12px_rgba(0,0,0,0.6))] duration-300 leading-12">{{ __('messages.sobre') }}</a>
-            <a href="#" class="hover:scale-125 hover:filter-[drop-shadow(0px_0px_12px_rgba(0,0,0,0.6))] duration-300 leading-12">{{ __('messages.projetos') }}</a>
-            <a href="#" class="hover:scale-125 hover:filter-[drop-shadow(0px_0px_12px_rgba(0,0,0,0.6))] duration-300 leading-12">{{ __('messages.skills') }}</a>
+            <button onclick="document.querySelector('#sobre').scrollIntoView({ behavior: 'smooth' })" class="hover:scale-125 hover:filter-[drop-shadow(0px_0px_12px_rgba(0,0,0,0.6))] duration-300 leading-12 cursor-pointer">{{ __('messages.sobre') }}</button>
+            <button onclick="document.querySelector('#projetos').scrollIntoView({ behavior: 'smooth' })" class="hover:scale-125 hover:filter-[drop-shadow(0px_0px_12px_rgba(0,0,0,0.6))] duration-300 leading-12 cursor-pointer">{{ __('messages.projetos') }}</button>
+            <button onclick="document.querySelector('#skills').scrollIntoView({ behavior: 'smooth' })" class="hover:scale-125 hover:filter-[drop-shadow(0px_0px_12px_rgba(0,0,0,0.6))] duration-300 leading-12 cursor-pointer">{{ __('messages.skills') }}</button>
         </div>
     </div>
 </nav>

@@ -1,4 +1,4 @@
-<div class="max-w-screen-2xl mx-auto px-2 py-16 lg:py-36 flex flex-col gap-26">
+<div id="sobre" class="max-w-screen-2xl mx-auto px-2 py-16 lg:py-36 flex flex-col gap-26">
     <div class="about-box flex flex-col gap-10 lg:gap-0 lg:flex-row items-center justify-center p-4 h-full w-full transition-all opacity-0 -translate-x-30 duration-700 ease-out">
         <div class="w-full h-full">
             <div class="flex justify-center items-center relative">
@@ -64,7 +64,7 @@
             </div>
 
             <div class="mt-5 flex flex-col md:flex-row justify-start items-center gap-4 w-full">
-                <button class="font-bungee text-xl text-white bg-dark_blue_3 px-4 py-4 flex justify-center items-center border-b-4 border-dark_blue_4 rounded-xl cursor-pointer hover:scale-110 duration-300 gap-3">
+                <button onclick="document.querySelector('#projetos').scrollIntoView({ behavior: 'smooth' })" class="font-bungee text-xl text-white bg-dark_blue_3 px-4 py-4 flex justify-center items-center border-b-4 border-dark_blue_4 rounded-xl cursor-pointer hover:scale-110 duration-300 gap-3">
                     <i class="fa-solid fa-folder-open"></i>
                     {{ __('messages.sobre_btn') }}
                 </button>
@@ -90,11 +90,11 @@
                     </div>
 
                     <div class="relative ">
-                        <img src="{{ asset('images/about/Tailwind.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl">
-                        <img src="{{ asset('images/about/Java_Fiap.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-5 md:top-12 left-5 md:left-12">
-                        <img src="{{ asset('images/about/Git.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-10 md:top-22 left-10 md:left-22">
-                        <img src="{{ asset('images/about/ScrumCertificate.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-16 md:top-32 left-16 md:left-32">
-                        <img src="{{ asset('images/about/CertificadoJava.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-20 md:top-42 left-20 md:left-42">
+                        <img src="{{ asset('images/about/Tailwind.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl cert-img transition-all opacity-0 -translate-x-30 duration-1000 ease-in-out">
+                        <img src="{{ asset('images/about/Java_Fiap.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-5 md:top-12 left-5 md:left-12 cert-img transition-all opacity-0 -translate-x-30 duration-1300 ease-in-out">
+                        <img src="{{ asset('images/about/Git.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-10 md:top-22 left-10 md:left-22 cert-img transition-all opacity-0 -translate-x-30 duration-1600 ease-in-out">
+                        <img src="{{ asset('images/about/ScrumCertificate.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-16 md:top-32 left-16 md:left-32 cert-img transition-all opacity-0 -translate-x-30 duration-1900 ease-in-out">
+                        <img src="{{ asset('images/about/CertificadoJava.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-20 md:top-42 left-20 md:left-42 cert-img transition-all opacity-0 -translate-x-30 duration-2200 ease-in-out">
                     </div>
                 </div>
 
