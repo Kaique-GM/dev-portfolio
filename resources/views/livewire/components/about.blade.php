@@ -69,7 +69,7 @@
                     {{ __('messages.sobre_btn') }}
                 </button>
 
-                <button onclick="window.open(this.dataset.url, '_blank')" data-url="{{ asset('files/C.4.1.pdf') }}" class="font-bungee text-xl text-white bg-dark_blue_3 px-4 py-4 flex justify-center items-center border-b-4 border-dark_blue_4 rounded-xl cursor-pointer hover:scale-110 duration-300 gap-3">
+                <button onclick="window.open(this.dataset.url, '_blank')" data-url="{{ asset('files/CV.pdf') }}" class="font-bungee text-xl text-white bg-dark_blue_3 px-4 py-4 flex justify-center items-center border-b-4 border-dark_blue_4 rounded-xl cursor-pointer hover:scale-110 duration-300 gap-3">
                     <i class="fa-solid fa-download"></i>
                     DOWNLOAD CV
                 </button>
