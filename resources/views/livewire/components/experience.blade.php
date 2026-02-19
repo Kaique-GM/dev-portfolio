@@ -1,4 +1,4 @@
-<section class="flex flex-col gap-5 max-w-screen-2xl mx-auto">
+<section class="flex flex-col gap-5 max-w-screen-2xl mx-auto mt-20">
     <div id=""
         class="text-center font-jersey text-white w-full about-box transition-all opacity-0 -translate-x-30 duration-700 ease-out">
         <div class="flex justify-center items-center">

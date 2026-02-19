@@ -52,6 +52,8 @@ return [
 
     'github_outros' => 'Confira outros no meu GitHub',
 
+    'ferramentas' => 'Ferramentas',
+
     'experiencias' => 'Experiências',
     'cargo_fullstack' => 'Desenvolvedor Web Full Stack',
     'periodo_atual' => 'Jun/2025 - Atual',

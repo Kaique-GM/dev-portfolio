@@ -53,6 +53,8 @@ return [
     'proj_snake_feat_3' => 'Sound effects during gameplay',
     'github_outros' => 'Check out more on my GitHub',
 
+    'ferramentas' => 'Tools',
+
     'experiencias' => 'Experience',
     'cargo_fullstack' => 'Full Stack Web Developer',
     'periodo_atual' => 'Jun/2025 - Present',

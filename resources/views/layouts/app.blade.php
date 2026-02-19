@@ -22,7 +22,7 @@
 
 <body class="min-h-screen flex flex-col relative">
 
-    <livewire:components.load-screen />
+    {{-- <livewire:components.load-screen /> --}}
 
     <livewire:components.navbar />
 

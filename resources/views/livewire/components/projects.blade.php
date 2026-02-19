@@ -330,7 +330,7 @@
 
     <div class="text-center font-jersey text-white w-full  about-box transition-all opacity-0 -translate-x-30 duration-700 ease-out">
         <div class="flex justify-center items-center">
-            <div class="flex flex-row justify-center items-center gap-4">
+            <div class="flex flex-col md:flex-row justify-center items-center gap-4">
                 <h1 class="text-4xl md:leading-16">
                     {{ __('messages.github_outros') }}
                 </h1>

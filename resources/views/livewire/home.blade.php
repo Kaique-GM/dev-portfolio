@@ -10,6 +10,8 @@
 
         <livewire:components.projects />
 
+        <livewire:components.skills />
+        
         <livewire:components.experience />
     </div>
 
