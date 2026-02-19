@@ -4,7 +4,7 @@
         <div class="flex justify-center items-center">
             <div class="flex flex-col justify-center items-start">
                 <h1 class="text-6xl md:text-[96px] md:leading-16">
-                    Experiências
+                    {{ __('messages.experiencias') }}
                 </h1>
             </div>
         </div>
@@ -15,40 +15,43 @@
             <div
                 class="bg-linear-to-b from-[#160B0D] via-[#0B0314] to-[#7207B9] rounded-3xl p-10  flex flex-col xl:flex-row justify-between items-end xl:items-start relative gap-32  md:gap-56 xl:gap-0 w-full">
 
-                <div class="flex flex-col md:flex-row justify-center items-center md:justify-start md:items-start gap-5 w-full">
+                <div
+                    class="flex flex-col md:flex-row justify-center items-center md:justify-start md:items-start gap-5 w-full">
                     <div class="max-w-24 overflow-hidden object-cover rounded-2xl">
                         <img src="{{ asset('images/experience/makeweb.webp') }}" alt="MakeWeb">
                     </div>
                     <div class="flex flex-col w-full gap-3">
-                        <div class="flex flex-col gap-3 border-b-2 border-[#D1D5D8]/30 w-full justify-center items-center md:items-start md:justify-start">
-                            <div class="flex flex-col w-full justify-center items-center md:items-start md:justify-start">
-                                <h6 class="text-white text-xl font-bungee drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-center md:text-start">
-                                    Desenvolvedor Web Full Stack</h6>
+                        <div
+                            class="flex flex-col gap-3 border-b-2 border-[#D1D5D8]/30 w-full justify-center items-center md:items-start md:justify-start">
+                            <div
+                                class="flex flex-col w-full justify-center items-center md:items-start md:justify-start">
+                                <h6
+                                    class="text-white text-xl font-bungee drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-center md:text-start">
+                                    {{ __('messages.cargo_fullstack') }}</h6>
                                 <span class="font-caveat text-white text-3xl">Make Web</span>
                             </div>
                             <div class="flex w-full justify-center items-center md:items-start md:justify-start">
                                 <div
                                     class="font-lexend text-sm text-[#D1D5D8] bg-[#7207B9]/30 border-[#7207B9] rounded-xl flex justify-center items-center p-2">
-                                    <span>Jun/2025 - Atual</span>
+                                    <span>{{ __('messages.periodo_atual') }}</span>
                                 </div>
                             </div>
                             <div class="font-lexend text-[#D1D5D8] mb-3 text-center md:text-start">
                                 <i class="fas fa-map-marker-alt"></i>
-                                Sorocaba, São Paulo, Brasil
+                                Sorocaba, São Paulo, {{ __('messages.pais') }}
                             </div>
                         </div>
                         <div class="flex flex-col border-b-2 border-[#D1D5D8]/30 w-full">
                             <p class="font-lexend text-sm text-[#D1D5D8] mb-3 text-center md:text-start">
-                                Desenvolvimento e manutenção de aplicações web completas com PHP e Laravel, atuando no
-                                back-end e front-end, criando interfaces responsivas com Blade, Livewire, Tailwind CSS e
-                                JavaScript, integrando APIs REST e bancos de dados MySQL, utilizando versionamento com
-                                Git/GitHub e participando de deploys em produção, sempre com foco em performance,
-                                estabilidade e qualidade do código.
+                                {{ __('messages.exp_descricao') }}
                             </p>
                         </div>
                         <div class="flex flex-col gap-3 w-full">
-                            <span class="font-lexend text-sm text-[#D1D5D8] text-center md:text-start">Competências Técnicas</span>
-                            <div class="flex flex-wrap gap-3 w-full justify-center items-center md:items-start md:justify-start">
+                            <span class="font-lexend text-sm text-[#D1D5D8] text-center md:text-start">
+                                {{ __('messages.competencias_tecnicas') }}
+                            </span>
+                            <div
+                                class="flex flex-wrap gap-3 w-full justify-center items-center md:items-start md:justify-start">
                                 <div class="rounded-full p-2 border-2 border-white/30 hover:scale-110 duration-300">
                                     <svg viewBox="0 0 128 128" class="w-10 h-10">
                                         <ellipse cx="64" cy="64" rx="60" ry="40"
@@ -132,7 +135,9 @@
                         </div>
 
                         <div class="flex flex-col gap-3 ">
-                            <span class="font-lexend text-sm text-[#D1D5D8] text-center md:text-start">Competências Comportamentais</span>
+                            <span class="font-lexend text-sm text-[#D1D5D8] text-center md:text-start">
+                                {{ __('messages.competencias_comportamentais') }}
+                            </span>
                             <div
                                 class="flex flex-wrap gap-3 font-lexend text-[12px] md:text-sm justify-center items-center md:justify-start md:items-start">
 
@@ -140,7 +145,8 @@
                                     class="flex justify-center items-center rounded-full p-2 border-2 border-white/30 hover:scale-110 duration-300">
                                     <i class="fa-solid fa-comments text-[#D1D5D8] mr-2"></i>
                                     <span class="text-[#D1D5D8]">
-                                        Comunicação
+                                        {{ __('messages.soft_comunicacao') }}
+
                                     </span>
                                 </div>
 
@@ -148,7 +154,7 @@
                                     class="flex justify-center items-center rounded-full p-2 border-2 border-white/30 hover:scale-110 duration-300">
                                     <i class="fa-solid fa-users text-[#D1D5D8] mr-2"></i>
                                     <span class="text-[#D1D5D8]">
-                                        Trabalho em equipe
+                                        {{ __('messages.soft_time') }}
                                     </span>
                                 </div>
 
@@ -156,7 +162,7 @@
                                     class="flex justify-center items-center rounded-full p-2 border-2 border-white/30 hover:scale-110 duration-300">
                                     <i class="fa-solid fa-lightbulb text-[#D1D5D8] mr-2"></i>
                                     <span class="text-[#D1D5D8]">
-                                        Resolução de Problemas
+                                        {{ __('messages.soft_problemas') }}
                                     </span>
                                 </div>
                             </div>

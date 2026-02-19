@@ -32,17 +32,6 @@
     --shadow-card: 4px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
-html,
-body {
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-}
-
-html::-webkit-scrollbar,
-body::-webkit-scrollbar {
-    display: none;
-}
-
 .bg-sky img {
     pointer-events: none;
 }

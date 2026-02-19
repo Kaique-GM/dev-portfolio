@@ -53,4 +53,15 @@ return [
     'proj_snake_feat_3' => 'Sound effects during gameplay',
     'github_outros' => 'Check out more on my GitHub',
 
+    'experiencias' => 'Experience',
+    'cargo_fullstack' => 'Full Stack Web Developer',
+    'periodo_atual' => 'Jun/2025 - Present',
+    'pais' => 'Brazil',
+    'competencias_tecnicas' => 'Technical Skills',
+    'competencias_comportamentais' => 'Soft Skills',
+    'exp_descricao' => 'Development and maintenance of full web applications using PHP and Laravel, working on both back-end and front-end, building responsive interfaces with Blade, Livewire, Tailwind CSS, and JavaScript, integrating REST APIs and MySQL databases, using Git/GitHub for version control, and participating in production deployments with a strong focus on performance, stability, and code quality.',
+    'soft_comunicacao' => 'Communication',
+    'soft_time' => 'Teamwork',
+    'soft_problemas' => 'Problem Solving',
+
 ];

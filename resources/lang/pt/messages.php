@@ -51,4 +51,16 @@ return [
     'proj_snake_feat_3' => 'Efeitos sonoros durante o jogo',
 
     'github_outros' => 'Confira outros no meu GitHub',
+
+    'experiencias' => 'Experiências',
+    'cargo_fullstack' => 'Desenvolvedor Web Full Stack',
+    'periodo_atual' => 'Jun/2025 - Atual',
+    'pais' => 'Brasil',
+    'competencias_tecnicas' => 'Competências Técnicas',
+    'competencias_comportamentais' => 'Competências Comportamentais',
+    'exp_descricao' => 'Desenvolvimento e manutenção de aplicações web completas com PHP e Laravel, atuando no back-end e front-end, criando interfaces responsivas com Blade, Livewire, Tailwind CSS e JavaScript, integrando APIs REST e bancos de dados MySQL, utilizando versionamento com Git/GitHub e participando de deploys em produção, sempre com foco em performance, estabilidade e qualidade do código.',
+
+    'soft_comunicacao' => 'Comunicação',
+    'soft_time' => 'Trabalho em equipe',
+    'soft_problemas' => 'Resolução de Problemas',
 ];
