@@ -1,4 +1,4 @@
-<section class="mt-20">
+<section class="mt-20 max-w-screen-2xl mx-auto">
     <div id="skills"
         class="text-center font-jersey text-white w-full about-box transition-all opacity-0 -translate-x-30 duration-700 ease-out">
         <div class="flex justify-center items-center">
@@ -24,7 +24,7 @@
                             <div class="flex flex-col justify-center items-center gap-1">
                                 <div class="rounded-full p-2 border-2 border-white/10 hover:scale-110 duration-300">
                                     <img src="{{ asset('images/projects/java-icon.svg') }}" alt="Java"
-                                        class="h-10 w-10">
+                                        class="h-10 w-10" draggable="false">
                                 </div>
                                 <span
                                     class="text-white text-xl font-bungee drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-center">Java</span>
@@ -33,7 +33,7 @@
                             <div class="flex flex-col justify-center items-center gap-1">
                                 <div class="rounded-full p-2 border-2 border-white/10 hover:scale-110 duration-300">
                                     <img src="{{ asset('images/skills/spring-boot.svg') }}" alt="Spring Boot"
-                                        class="h-10 w-10">
+                                        class="h-10 w-10" draggable="false">
                                 </div>
                                 <span
                                     class="text-white text-xl font-bungee drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-center">Spring</span>
@@ -56,7 +56,7 @@
 
                                 <div class="rounded-full p-2 border-2 border-white/30 hover:scale-110 duration-300">
                                     <img src="{{ asset('images/experience/laravel.svg') }}" alt="Laravel"
-                                        class="h-10 w-10">
+                                        class="h-10 w-10" draggable="false">
                                 </div>
 
                                 <span
@@ -66,7 +66,7 @@
                             <div class="flex flex-col justify-center items-center gap-1">
 
                                 <div class="rounded-full p-2 border-2 border-white/30 hover:scale-110 duration-300">
-                                    <img src="{{ asset('images/skills/python.svg') }}" alt="Python" class="h-10 w-10">
+                                    <img src="{{ asset('images/skills/python.svg') }}" alt="Python" class="h-10 w-10" draggable="false">
                                 </div>
                                 <span
                                     class="text-white text-xl font-bungee drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-center">Python</span>
@@ -75,7 +75,7 @@
                             <div class="flex flex-col justify-center items-center gap-1">
 
                                 <div class="rounded-full p-2 border-2 border-white/30 hover:scale-110 duration-300">
-                                    <img src="{{ asset('images/skills/node.svg') }}" alt="Node.js" class="h-10 w-10">
+                                    <img src="{{ asset('images/skills/node.svg') }}" alt="Node.js" class="h-10 w-10" draggable="false">
                                 </div>
                                 <span
                                     class="text-white text-xl font-bungee drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-center">Node.js</span>
@@ -86,7 +86,7 @@
 
                                 <div class="rounded-full p-2 border-2 border-white/30 hover:scale-110 duration-300">
                                     <img src="{{ asset('images/projects/mysql-icon.svg') }}" alt="MySQL"
-                                        class="h-10 w-10">
+                                        class="h-10 w-10" draggable="false">
                                 </div>
                                 <span
                                     class="text-white text-xl font-bungee drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-center">MySQL</span>
@@ -95,7 +95,7 @@
                             <div class="flex flex-col justify-center items-center gap-1">
 
                                 <div class="rounded-full p-2 border-2 border-white/30 hover:scale-110 duration-300">
-                                    <img src="{{ asset('images/skills/mongo.svg') }}" alt="MondoDB" class="h-10 w-10">
+                                    <img src="{{ asset('images/skills/mongo.svg') }}" alt="MondoDB" class="h-10 w-10" draggable="false">
                                 </div>
                                 <span
                                     class="text-white text-xl font-bungee drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-center">MongoDB</span>
@@ -179,7 +179,7 @@
                             <div class="flex flex-col justify-center items-center gap-1">
                                 <div class="rounded-full p-2 border-2 border-white/10 hover:scale-110 duration-300">
                                     <img src="{{ asset('images/experience/js.webp') }}" alt="JavaScript"
-                                        class="h-10 w-10">
+                                        class="h-10 w-10" draggable="false">
                                 </div>
                                 <span
                                     class="text-white text-xl font-bungee drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-center">JavaScript</span>
@@ -201,7 +201,7 @@
                             <div class="flex flex-col justify-center items-center gap-1">
                                 <div class="rounded-full p-2 border-2 border-white/10 hover:scale-110 duration-300">
                                     <img src="{{ asset('images/experience/tailwind.svg') }}" alt="TailWind"
-                                        class="h-10 w-10">
+                                        class="h-10 w-10" draggable="false">
                                 </div>
                                 <span
                                     class="text-white text-xl font-bungee drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-center">TailWind</span>
@@ -258,7 +258,7 @@
                             <div class="flex flex-col justify-center items-center gap-1">
                                 <div class="rounded-full p-2 border-2 border-white/10 hover:scale-110 duration-300">
                                     <img src="{{ asset('images/skills/vs.svg') }}" alt="Figma"
-                                        class="h-10 w-10">
+                                        class="h-10 w-10" draggable="false">
                                 </div>
                                 <span
                                     class="text-white text-xl font-bungee drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-center">VS Code</span>
@@ -267,7 +267,7 @@
                             <div class="flex flex-col justify-center items-center gap-1">
                                 <div class="rounded-full p-2 border-2 border-white/10 hover:scale-110 duration-300">
                                     <img src="{{ asset('images/skills/fileZilla.svg') }}" alt="FileZilla"
-                                        class="h-10 w-10 rounded-xl">
+                                        class="h-10 w-10 rounded-xl" draggable="false">
                                 </div>
                                 <span
                                     class="text-white text-xl font-bungee drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-center">FileZilla</span>
@@ -276,7 +276,7 @@
                             <div class="flex flex-col justify-center items-center gap-1">
                                 <div class="rounded-full p-2 border-2 border-white/10 hover:scale-110 duration-300">
                                     <img src="{{ asset('images/skills/xampp.svg') }}" alt="XAMPP"
-                                        class="h-10 w-10 rounded-xl">
+                                        class="h-10 w-10 rounded-xl" draggable="false">
                                 </div>
                                 <span
                                     class="text-white text-xl font-bungee drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-center">XAMPP</span>
@@ -285,7 +285,7 @@
                             <div class="flex flex-col justify-center items-center gap-1">
                                 <div class="rounded-full p-2 border-2 border-white/10 hover:scale-110 duration-300">
                                     <img src="{{ asset('images/skills/putty.svg') }}" alt="Putty"
-                                        class="h-10 w-10 rounded-xl">
+                                        class="h-10 w-10 rounded-xl" draggable="false">
                                 </div>
                                 <span
                                     class="text-white text-xl font-bungee drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-center">Putty</span>
@@ -294,7 +294,7 @@
                             <div class="flex flex-col justify-center items-center gap-1">
                                 <div class="rounded-full p-2 border-2 border-white/10 hover:scale-110 duration-300">
                                     <img src="{{ asset('images/skills/Figma.svg') }}" alt="Figma"
-                                        class="h-10 w-10">
+                                        class="h-10 w-10" draggable="false">
                                 </div>
                                 <span
                                     class="text-white text-xl font-bungee drop-shadow-[0_4px_0px_rgba(0,0,0,1)] text-center">Figma</span>

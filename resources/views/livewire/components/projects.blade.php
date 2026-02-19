@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="md:px-5">
-                    <img src="{{ asset('images/projects/miauMigo.webp') }}" alt="Miaumigo" class="rounded-t-xl shadow-[0px_-20px_50px_rgba(185,28,28,1)] hover:scale-110 hover:-rotate-3 duration-500 hover:rounded-b-xl">
+                    <img src="{{ asset('images/projects/miauMigo.webp') }}" alt="Miaumigo" class="rounded-t-xl shadow-[0px_-20px_50px_rgba(185,28,28,1)] hover:scale-110 hover:-rotate-3 duration-500 hover:rounded-b-xl" draggable="false">
                 </div>
             </div>
         </div>
@@ -166,7 +166,7 @@
                     </div>
                 </div>
                 <div class="md:px-5">
-                    <img src="{{ asset('images/projects/walletCare.webp') }}" alt="walletCare" class="rounded-t-xl shadow-[0px_-20px_50px_rgba(79,70,229,1)] hover:scale-110 hover:-rotate-3 duration-500 hover:rounded-b-xl">
+                    <img src="{{ asset('images/projects/walletCare.webp') }}" alt="walletCare" class="rounded-t-xl shadow-[0px_-20px_50px_rgba(79,70,229,1)] hover:scale-110 hover:-rotate-3 duration-500 hover:rounded-b-xl" draggable="false">
                 </div>
             </div>
         </div>
@@ -233,11 +233,11 @@
                 </div>
                 <div class="flex flex-row gap-3 mt-6 pl-7">
                     <div class="rounded-full p-2 border-2 border-white/10 hover:scale-110 duration-300">
-                        <img src="{{ asset('images/projects/java-icon.svg') }}" alt="Java" class="h-10 w-10">
+                        <img src="{{ asset('images/projects/java-icon.svg') }}" alt="Java" class="h-10 w-10" draggable="false">
                     </div>
 
                     <div class="rounded-full p-2 border-2 border-white/10 hover:scale-110 duration-300">
-                        <img src="{{ asset('images/projects/mysql-icon.svg') }}" alt="MySQL" class="h-10 w-10">
+                        <img src="{{ asset('images/projects/mysql-icon.svg') }}" alt="MySQL" class="h-10 w-10" draggable="false">
                     </div>
 
                 </div>
@@ -269,7 +269,7 @@
                     </div>
                 </div>
                 <div class="md:px-5">
-                    <img src="{{ asset('images/projects/snakeGame.webp') }}" alt="snakeGame" class="rounded-t-xl max-h-87.5 shadow-[0px_-20px_50px_rgba(0,122,63,1)] hover:scale-120 hover:-rotate-3 duration-500 hover:rounded-b-xl">
+                    <img src="{{ asset('images/projects/snakeGame.webp') }}" alt="snakeGame" class="rounded-t-xl max-h-87.5 shadow-[0px_-20px_50px_rgba(0,122,63,1)] hover:scale-120 hover:-rotate-3 duration-500 hover:rounded-b-xl" draggable="false">
                 </div>
             </div>
         </div>
@@ -321,7 +321,7 @@
                 </div>
                 <div class="flex flex-row gap-3 mt-6 pl-7">
                     <div class="rounded-full p-2 border-2 border-white/10 hover:scale-110 duration-300">
-                        <img src="{{ asset('images/projects/java-icon.svg') }}" alt="Java" class="h-10 w-10">
+                        <img src="{{ asset('images/projects/java-icon.svg') }}" alt="Java" class="h-10 w-10" draggable="false">
                     </div>
                 </div>
             </div>

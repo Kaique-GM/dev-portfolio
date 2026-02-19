@@ -90,11 +90,11 @@
                     </div>
 
                     <div class="relative ">
-                        <img src="{{ asset('images/about/Tailwind.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl cert-img transition-all opacity-0 -translate-x-30 duration-1000 ease-in-out">
-                        <img src="{{ asset('images/about/Java_Fiap.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-5 md:top-12 left-5 md:left-12 cert-img transition-all opacity-0 -translate-x-30 duration-1300 ease-in-out">
-                        <img src="{{ asset('images/about/Git.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-10 md:top-22 left-10 md:left-22 cert-img transition-all opacity-0 -translate-x-30 duration-1600 ease-in-out">
-                        <img src="{{ asset('images/about/ScrumCertificate.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-16 md:top-32 left-16 md:left-32 cert-img transition-all opacity-0 -translate-x-30 duration-1900 ease-in-out">
-                        <img src="{{ asset('images/about/CertificadoJava.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-20 md:top-42 left-20 md:left-42 cert-img transition-all opacity-0 -translate-x-30 duration-2200 ease-in-out">
+                        <img src="{{ asset('images/about/Tailwind.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl cert-img transition-all opacity-0 -translate-x-30 duration-1000 ease-in-out" draggable="false">
+                        <img src="{{ asset('images/about/Java_Fiap.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-5 md:top-12 left-5 md:left-12 cert-img transition-all opacity-0 -translate-x-30 duration-1300 ease-in-out" draggable="false">
+                        <img src="{{ asset('images/about/Git.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-10 md:top-22 left-10 md:left-22 cert-img transition-all opacity-0 -translate-x-30 duration-1600 ease-in-out" draggable="false">
+                        <img src="{{ asset('images/about/ScrumCertificate.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-16 md:top-32 left-16 md:left-32 cert-img transition-all opacity-0 -translate-x-30 duration-1900 ease-in-out" draggable="false">
+                        <img src="{{ asset('images/about/CertificadoJava.webp') }}" alt="Certificado" class="max-w-36 md:max-w-72 rounded-xl md:rounded-3xl absolute top-20 md:top-42 left-20 md:left-42 cert-img transition-all opacity-0 -translate-x-30 duration-2200 ease-in-out" draggable="false">
                     </div>
                 </div>
 

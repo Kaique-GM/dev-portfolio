@@ -1,5 +1,5 @@
 <section class="relative overflow-hidden bg-background">
-    <div class="bg-linear-to-b from-background via-background to-[#160b0d]">
+    <div class="bg-linear-to-b from-background via-background to-[#160a0e]">
         <livewire:components.banner />
 
         <livewire:components.about />

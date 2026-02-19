@@ -18,7 +18,7 @@
                 <div
                     class="flex flex-col md:flex-row justify-center items-center md:justify-start md:items-start gap-5 w-full">
                     <div class="max-w-24 overflow-hidden object-cover rounded-2xl">
-                        <img src="{{ asset('images/experience/makeweb.webp') }}" alt="MakeWeb">
+                        <img src="{{ asset('images/experience/makeweb.webp') }}" alt="MakeWeb" draggable="false">
                     </div>
                     <div class="flex flex-col w-full gap-3">
                         <div
@@ -63,17 +63,17 @@
 
                                 <div class="rounded-full p-2 border-2 border-white/30 hover:scale-110 duration-300">
                                     <img src="{{ asset('images/experience/laravel.svg') }}" alt="Laravel"
-                                        class="h-10 w-10">
+                                        class="h-10 w-10" draggable="false">
                                 </div>
 
                                 <div class="rounded-full p-2 border-2 border-white/30 hover:scale-110 duration-300">
                                     <img src="{{ asset('images/projects/mysql-icon.svg') }}" alt="MySQL"
-                                        class="h-10 w-10">
+                                        class="h-10 w-10" draggable="false">
                                 </div>
 
                                 <div class="rounded-full p-2 border-2 border-white/30 hover:scale-110 duration-300">
                                     <img src="{{ asset('images/experience/tailwind.svg') }}" alt="TailWind"
-                                        class="h-10 w-10">
+                                        class="h-10 w-10" draggable="false">
                                 </div>
 
 
@@ -108,7 +108,7 @@
                                 </div>
 
                                 <div class="rounded-full p-2 border-2 border-white/30 hover:scale-110 duration-300">
-                                    <img src="{{ asset('images/experience/js.webp') }}" alt="JavaScript"
+                                    <img src="{{ asset('images/experience/js.webp') }}" alt="JavaScript" draggable="false"
                                         class="h-10 w-10">
                                 </div>
 
