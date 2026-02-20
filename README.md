@@ -6,7 +6,7 @@
 
 ### 🌎 Acesse o projeto
 
-🔗 Live Demo: https://seuusuario.github.io
+🔗 Live Demo: https://kaique-gm.github.io/
 
 ## 📌 Sobre o Projeto
 
