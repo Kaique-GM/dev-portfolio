@@ -14,7 +14,7 @@ Este é meu portfólio pessoal, desenvolvido para apresentar:
 
 - Minhas habilidades como Desenvolvedor Full Stack
 - Projetos desenvolvidos
-- Certificaçõe
+- Certificações
 - Tecnologias que utilizo no dia a dia
 
 ## 🛠️ Tecnologias Utilizadas
